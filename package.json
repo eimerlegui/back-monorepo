@@ -1,0 +1,16 @@
+{
+	"name": "back-monorepo",
+	"scripts": {
+		"dev": "turbo dev"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"devDependencies": {
+		"turbo": "^1.10.13"
+	}
+}
